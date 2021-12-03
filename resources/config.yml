@@ -1,0 +1,18 @@
+# You can use json, yaml, sql or mysql.
+provider: "yaml"
+lang: "en"
+# Put true if you use mysql or sqlite.
+cache: false
+# Connectors for mysql.
+database:
+  # If you use mysql locally put 127.0.0.1 if not put the ip here.
+  host: "127.0.0.1"
+  username: "YOUR USERNAME"
+  password: "YOUR PASSWORD"
+  database: "YOUR DATABASE"
+  port: 3306
+# Name of the sqlite file, put as extension .sql !
+sqlite-db: "mydb.sql"
+
+# How much money do players start with?
+start-money: 1000

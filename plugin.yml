@@ -1,0 +1,17 @@
+name: MoneyAPI
+version: 1.0.0
+authors:
+  - MoonTeam
+  - Zoumi
+main: MoonTeam\MoneyAPI\Main
+api: 4.0.0
+
+permissions:
+  money.money:
+    default: true
+  money.setmoney:
+    default: op
+  money.addmoney:
+    default: op
+  money.removemoney:
+    default: op

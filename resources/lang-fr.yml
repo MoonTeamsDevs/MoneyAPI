@@ -1,0 +1,13 @@
+no-permission: "Vous n'avez pas la permission d'utiliser ceci."
+player-no-in-db: "Ce joueur n'existe pas dans la base de donnée."
+invalid-number: "Vous devez entrer un nombre plus grand que 0."
+
+view-money: "Vous possédez {money} d'argent."
+view-money-player: "Le joueur {player} possède {money} d'argent."
+setmoney-sender-msg: "Vous venez de définir l'argent du joueur {player} à {money}."
+setmoney-player-msg: "{player} vient de définir votre argent à {money}."
+addmoney-sender-msg: "Vous venez d'ajouter {money} d'argent au joueur {player}."
+addmoney-player-msg: "{player} vient de vous ajoutez {money} d'argent."
+removemoney-sender-msg: "Vous venez de retirer {money} d'argent au joueur {player}."
+removemoney-player-msg: "{player} vient de vous retirez {money} d'argent."
+less-than: "Le joueur {player} possède moins de {money} d'argent."
